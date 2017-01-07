@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>我要吐槽</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" href="../css/common1.css" />
+		<link rel="stylesheet" href="../css/home/tucao.css" />
+	</head>
+
+	<body>
+		<!--错误提示-->
+				<ul class="rError">
+					<!--标题-->
+					<li class="rError-title">
+						<span>提交错误</span>
+						<img src="../img/home/close.png" alt="" />
+					</li>
+					<!--msg-->
+					<li class="rError-msg">
+						<span>提交内容超过200个字或者小于0个字</span>
+					</li>
+					<li class="rError-btn">
+						<div class="rError-btn-btn">确定</div>
+					</li>
+				</ul>
+		<div id="xWrap">	
+			<!--遮罩层-->
+			<div class="rMask"></div>
+			
+			<!--主体-->
+			<div id="xBox">
+				<!--公共头部-->
+				<header>
+					<a href="home.html" id="xSwitches">
+						<img src="../img/home/backbtn.png" alt="" />
+					</a>
+					<span>我要吐槽</span>
+				</header>
+				<!--内容开始-->
+				<div class="content">	
+					<!--吐槽成功提示-->
+					<div class="rTucao-suc">
+						吐槽成功,呵呵呵呵
+					</div>
+					<ul class="rTucao">
+						<li class="rTucao-title">
+							<span>反馈意见</span>
+							<i class="rTucao-text">(0/200)</i>
+						</li>
+						<!--反馈内容板块-->
+						<li class="rTucao-content">
+							<textarea name="" placeholder="随便吐槽,发反正我们也不看" id="tucaoContent"></textarea>
+						</li>
+						<!--联系方式-->
+						<li class="rTucao-qq">
+							<label for="" class="label1">联系方式:</label>
+							<input type="text" id="qq" placeholder="爱写啥联系方式写啥"/>
+						</li>
+						<!--提交-->
+						<li class="rSubmit">
+							<div class="rBtn">提交</div>
+						</li>
+					</ul>
+				</div>
+				<!--公共底部-->
+				<footer>
+					<ul>
+						<li>
+							<a href="../home/home.html">
+								<img src="../img/common/Home1.png" alt="" /><br />
+								<span>首页</span>
+							</a>
+						</li>
+						<li>
+							<a href="../video/video.html">
+								<img src="../img/common/Play2.png" alt="" /><br />
+								<span>视频</span>
+							</a>
+						</li>
+						<li>
+							<a href="../shop/shop.html">
+								<img src="../img/common/tag.png" alt="" /><br />
+								<span>商城</span>
+							</a>
+						</li>
+						<li>
+							<a href="../mine/mine.html">
+								<img src="../img/common/ren.png" alt="" /><br />
+								<span>我的</span>
+							</a>
+						</li>
+					</ul>
+				</footer>
+			</div>
+		</div>
+
+	</body>
+	<script src="../js/zepto.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../js/home/tucao.js" type="text/javascript" charset="utf-8"></script>
+</html>

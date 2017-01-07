@@ -1,0 +1,55 @@
+header a:nth-of-type(1) img{
+	width: 54%;	
+}
+/*内容*/
+.content{
+	height: 95%;
+	width: 100%;
+	background: rgb(255,255,255);
+	position: fixed;
+	background-image: url(../../img/mine/forgetbac.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;	
+	margin-top: 8%;
+	text-align: center;
+}
+button,input{
+	border-radius: 2px;
+}
+.phone{
+	width: 75%;
+	background: white;
+	margin-top: 20%;
+	padding: 4%;
+	margin-bottom: 6%;
+}
+
+.getCode-ipt{
+	background: white;
+	padding: 4%;
+    width: 43%;
+    margin-right: 3%;
+}
+.getCode-btn{
+	color: white;
+	border: none;
+	padding: 3.3% 4% 3.6% 4%;
+	background: rgb(242,84,84);
+	font-size: 1.5rem;
+}
+.login{
+	border: none;
+	margin-top: 10%;
+	width: 83%;
+	padding: 3.3% 4% 3.6% 4%;
+	background: rgb(242,84,84);
+	color: white;
+	font-size: 1.5rem;
+	margin-right: 1%;
+	margin-bottom: 3%;
+}
+#backToLogin{
+	position: absolute;
+	right: 9%;
+	color: rgb(242,84,84);
+}

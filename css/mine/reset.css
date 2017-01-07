@@ -1,0 +1,48 @@
+.content{
+	height: 100%;
+	width: 100%;
+	background: rgb(255,255,255);
+	position: fixed;
+	background-image: url(../../img/mine/forgetbac.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;	
+	margin-top: 8%;
+	text-align: center;
+}
+.content>input:nth-child(1){
+	margin-top: 20%;
+}
+button,input{
+	border-radius: 2px;
+}
+input{
+	width: 75%;
+	background: white;
+	padding: 4%;
+}
+.newPass{
+	margin-bottom: 12%;
+	margin-top: 8%;
+}
+.submit{
+	border: none;
+	margin-top: 5%;
+	width: 83%;
+	padding: 3.3% 4% 3.6% 4%;
+	background: rgb(242,84,84);
+	color: white;
+	font-size: 1.5rem;
+	margin-right: 1%;
+	margin-bottom: 3%;
+}
+#backToLogin{
+	position: absolute;
+	right: 9%;
+	color: rgb(242,84,84);
+}
+label{
+	position: absolute;
+	left: 9%;
+	color: red;
+	display: none;
+}

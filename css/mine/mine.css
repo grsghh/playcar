@@ -1,0 +1,186 @@
+#xWrap{
+	height: 100%;
+}
+#xBox{
+	height: 93%;
+}
+/*遮罩层*/
+.rMask{
+	height: 100%;
+	background: darkgray;
+	opacity: 0.5;
+	position: absolute;
+	z-index: 99999;
+	width: 100%;
+	display: none;
+}
+/*关于我们*/
+.rAboutUs{
+	background: rgb(250,250,250);
+    position: absolute;
+    z-index: 999999;
+    height: 20%;
+    border-radius: 5px;
+    top: 40%;
+    width: 90%;
+    left: 5%;
+    display: none;
+}
+.rAboutUs-title{
+	background: rgb(242,242,242);
+	overflow: hidden;
+	padding: 3%;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+.rAboutUs-title img{
+	float: right;
+	width: 6%;
+	margin-top: 1%;
+}
+.rAboutUs-title span{
+	font-size: 1.6rem;
+
+	display: inline-block;
+	margin-top: 2%;
+}
+.rAboutUs-msg{
+	padding: 3%;
+	margin-bottom: 5%;
+	line-height: 2;
+}
+.rAboutUs-msg span{
+	color: rgb(85,85,85);
+	font-size: 1.3rem;
+}
+
+.content{
+	margin-bottom: 0;
+	margin-top: 12%;
+	background: url(../../img/mine/back1.png) no-repeat;
+	background-size: 100% 100%;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
+.main{	
+	width: 95%;
+	background: rgba(255,255,255,0.9);
+	position: absolute;
+	top: 29.5%;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	border-radius: 2px;
+}
+/*用户上半*/
+.user{
+	text-align: center;
+	position: relative;
+	margin-bottom: 4%;
+}
+/*用户头像*/
+.userImg{
+	position: absolute;
+	border-radius: 50%;
+	width: 30%;
+	left: 0;
+    right: 0;
+    bottom: 66%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.userImg img{
+	width: 100%;
+}
+/*用户昵称*/
+#userName{
+	display: inline-block;
+	margin-top: 14%;
+	font-size: 2rem;
+}
+/*登录按钮*/
+.userLogin{
+	display: inline-block;
+	font-size: 2rem;
+	color: white;
+	margin-top: 2%;
+	padding: 2% 7% 2% 7%;
+	background: rgb(242,99,92);
+	border-radius: 3px;
+	/*display: none;*/
+}
+/*用户签到信息*/
+.userInfo{	
+	margin-top: 2%;
+}
+.userSign{
+	font-size: 1.6rem;
+	letter-spacing: 0.1rem;
+}
+/*签到天数*/
+.userSign-count{
+	margin: 0 1%;
+	color: rgb(253,163,40);
+	border-bottom: 1px solid rgb(253,163,40);
+}
+.levelInfo{
+	color: rgb(242,99,92);
+	border-bottom: 1px solid rgb(242,99,92);
+}
+/*签到按钮*/
+.signIn{
+	display: inline-block;
+	color: rgb(242,99,92);
+	margin-left: 24%;
+}
+.signIn img{
+	width: 27%;
+	vertical-align: bottom;
+}
+#signIn-text{
+	display: inline-block;
+	border-bottom: 1px solid rgb(242,99,92);
+	margin-bottom: 3%;
+}
+/*我的信息*/
+.myInfo{
+	border-bottom: 1px solid rgb(229,229,229);
+	border-top: 1px solid rgb(229,229,229);
+	padding: 3%;
+	margin-bottom: 3%;
+}
+.myInfo li{
+	padding: 3%;
+	display: flex;
+	justify-content: space-between;
+	font-size: 1.6rem;
+	border-bottom: 1px solid rgb(229,229,229);
+}
+.myInfo li:nth-last-child(1){
+	border: none;
+}
+.myInfo li>img{
+	margin-top: 1%;
+	width: 2.5%;
+	height: 1%;
+	vertical-align: bottom;
+}
+.myInfo li>span img{
+	width: 18%;
+	vertical-align: bottom;
+}
+#loginOut{
+	display: inline-block;
+    font-size: 2rem;
+    color: white;
+    padding: 2% 7% 2% 7%;
+    background: rgb(242,99,92);
+    border-radius: 3px;
+    border: none;
+    margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 2%;
+	display: none;
+}

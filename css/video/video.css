@@ -1,0 +1,124 @@
+.content{
+	margin-top: 15%;
+}
+header span{
+	font-size: 2.8em;
+}
+.rGift-title{
+	margin: 4% 1%;
+	background-color: white;
+	font-family: "STHeiti";
+	height: 10%;
+	width: 40%;
+	overflow: hidden;
+	position: relative;	
+}
+.rGift-title img:nth-child(1){
+	width: 12%;
+	position: relative;
+	left: 1.5%;
+	margin-top: 1.5%;
+}
+.rGift-title span:nth-child(2){
+	display: block;
+    color: black;
+    font-size: 1.9rem;
+    position: absolute;
+    top: 10%;
+    left: 17%;
+}
+
+.rRec{
+	margin-top: 2%;
+	overflow: hidden;
+	background: white;
+	padding: 0 3% 2% 3%;
+	margin-bottom: 2%;
+}
+.rRec em{
+	color: #f46259;
+}
+.rRec>div:nth-last-child(1){
+	margin-right: 0;
+}
+.rRec-game{
+	float: left;
+	margin: 0% 10% 0% 1%;
+	width: 16%;
+	text-align: center;
+}
+.rRec-game strong{
+	font-size: 1.4em;
+	color: #333333;
+	margin-bottom: 3%;
+	display: inline-block;
+}
+.rRec-game img{
+	width: 100%;
+}
+.rRec-game span{
+	color: rgb(177,177,177);
+}
+.rVideo{
+	width: 100%;
+	padding: 2%;
+	box-sizing: border-box;
+	background: white;
+}
+.rVideo-title{
+	overflow: hidden;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+.rVideo-title img{
+	width: 5%;
+	float: left;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+.rVideo-show{
+	margin: 2% 0;
+	overflow: hidden;
+}
+.rVideo-title h4{
+	float: left;
+	vertical-align: middle;
+}
+.rVideo-show div{
+	position: relative;
+	width: 48%;
+	float: left;
+}
+.edit1{
+	margin-right: 4%;
+}
+.showDiv-img1{
+	width: 100%;
+}
+.showDiv-img2{
+	width: 10%;
+	top: 0%;
+	left: 0%;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	position: absolute;
+}
+.rVideo-show strong{
+	position: absolute;
+	bottom: 15%;
+	display: inline-block;
+	background: rgba(0,0,0,0.6);
+	width: 94%;
+	padding: 3%;
+	font-size: 1.5em;
+	color: white;
+	
+}
+.rVideo-show i{
+	display: block;
+	font-style: normal;
+	color: #555555;
+	font-size: 1.2em;
+	margin-top: 2%;
+}

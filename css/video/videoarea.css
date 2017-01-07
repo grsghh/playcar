@@ -1,0 +1,137 @@
+
+/*顶部大图*/
+.rTopImg{
+	width: 100%;
+	height: 150px;
+	background: url(../../img/video/bigimg.png) no-repeat;
+	background-size: 100% 100%;
+}
+/*大图简介*/
+.rTopInfo{
+	background: white;
+	position: relative;	
+	padding: 3%;
+}
+.rTopInfo>img{
+	width: 5%;
+	position: absolute;
+	top: 15%;
+	right: 3%;
+}
+.rTopInfo-title{
+	display: inline-block;
+	width: 85%;
+	font-size: 2rem;
+}
+.rTopInfo-play{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 3%;
+	color: rgb(221,221,221);
+}
+.rTopInfo-play img{
+	width: 17%;
+	margin-right: 7%;
+}
+/*关注*/
+.rFocus{
+	background: white;
+	padding-top: 2%;
+	padding-bottom: 1%;
+	display: flex;
+	justify-content: space-around;
+	align-content: center;
+	margin-top: 2%;
+}
+.rFocus img{
+	height: 16%;
+	width: 16%;
+}
+.rFocus span:nth-child(2){
+	line-height: 1.8;
+	margin-left: -5%;
+	font-size: 2.8em;
+	
+}
+.rFocus-title i{
+	color: red;
+	font-size: 0.5em;
+}
+.rFocus-btn{
+	display: inline-block;
+	border:1px solid rgb(254,119,111);
+    height: 2.5rem;
+    width: 20%;
+    line-height: 2.5;
+    background: rgb(254,119,111);
+    border-radius: 3px;
+	color: white;
+	text-align: center;
+	margin-top: 3%;
+}
+/*最新视频*/
+.rVideo{
+	width: 100%;
+	padding: 2%;
+	box-sizing: border-box;
+	background: white;
+	margin-top: 1%;
+}
+.rVideo-title{
+	overflow: hidden;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	display: flex;
+	justify-content: space-between;	
+}
+.rVideo-title span:nth-child(1){
+	font-size: 1.6rem;
+}
+.rVideo-title span:nth-child(2){
+	line-height: 2;
+}
+.rVideo-show{
+	margin: 2% 0;
+	overflow: hidden;
+}
+.rVideo-title h4{
+	float: left;
+	vertical-align: middle;
+}
+.rVideo-show div{
+	position: relative;
+	width: 48%;
+	float: left;
+}
+.edit1{
+	margin-right: 4%;
+}
+.showDiv-img1{
+	width: 100%;
+}
+.showDiv-img2{
+	width: 15%;
+    top: 33%;
+    left: 0%;
+    right: 0;
+    margin: 0 auto;
+    position: absolute;
+}
+.rVideo-show strong{
+	position: absolute;
+	bottom: 15%;
+	display: inline-block;
+	background: rgba(0,0,0,0.6);
+	width: 94%;
+	padding: 3%;
+	font-size: 1.5em;
+	color: white;
+	
+}
+.rVideo-show i{
+	display: block;
+	font-style: normal;
+	color: #555555;
+	font-size: 1.2em;
+	margin-top: 2%;
+}

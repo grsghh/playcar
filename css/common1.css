@@ -1,0 +1,221 @@
+@media only screen and (min-width:320px) and (orientation:portrait){  
+    html{font-size:50%;}  
+}  
+@media only screen and (min-width:360px) and (orientation:portrait){  
+    html{font-size:62.5%;}  
+}  
+@media only screen and (min-width:400px) and (orientation:portrait){  
+    html{font-size:70%;}  
+}  
+  
+@media only screen and (min-width:600px) and (orientation:portrait){  
+    html{font-size:125%;}  
+}  
+  
+@media only screen and (min-width:480px) and (orientation:landscape){  
+    html{font-size:87.5%;}  
+}  
+@media only screen and (min-width:580px) and (orientation:landscape){  
+    html{font-size:125%;}  
+}  
+@media only screen and (min-width:730px) and (orientation:landscape){  
+    html{font-size:130%;}  
+}  
+@media only screen and (min-width:900px) and (orientation:landscape){  
+    html{font-size:175%;}  
+}  
+@media only screen and (min-width:992px){  
+    html{font-size:200%;}  
+}  
+@charset "utf-8";
+body,header,footer,div,p,ul,li,dl,dt,dd,form,h1,h2,h3,h4,h5,span,em,i,strong,a{
+	padding: 0;
+	margin: 0;
+}
+html{
+	width:100%;
+	height: 100%;
+}
+body{
+	font:62.5% tahoma,arail;
+	width:100%;
+	height: 100%;
+}
+input,form{
+	background: none;
+	border: none;
+}
+ul,li,ol,dl{
+	list-style: none;
+}
+a{
+	color: #000;
+	text-decoration: none;
+}
+input:focus,button:focus{
+	outline: none;
+}
+em,i{
+	font-style: normal;
+}
+#xWrap{
+	position: relative;
+}
+/*头部*/
+#xBox{
+	width: 100%;
+	
+	background:rgb(219,219,219);
+	position: absolute;
+	left: 0;
+	top: 0;
+	transition: all 0.5s linear;
+}
+header{
+	width: 100%;
+	height:55px;
+	background:white;
+	position: fixed;
+	text-align: center;
+	line-height: 55px;
+	top: 0;
+	z-index: 9999;
+}
+header a:nth-of-type(1){
+	position:absolute;
+	left:7.6%;
+	top: 6px;
+}
+header a:nth-of-type(2){
+	font-size:2.4em;
+	color: #d92929;
+	position: absolute;
+	right:5%;
+}
+header span{
+	font-size:2.8em;
+	color:#d92929;
+}
+header img{
+	width: 80%;
+}
+/*尾部*/
+footer{
+	width: 100%;
+	height:55px;
+	background: white;
+	position: fixed;
+	bottom: 0;
+	border-top: 1px solid #bbbbbb;
+	z-index: 999;
+}
+footer ul{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 2%;
+}
+footer li{
+	text-align: center;
+}
+footer span{
+	font-size:1.3em;
+	color: #1b1b1b;
+}
+footer img{
+	width:50%;
+}
+/*user框*/
+#xUser{
+	width:80%;
+	height: 1800px;
+	background: #463451;
+	position: fixed;
+	left: 0;
+	top: 0;
+}
+#xUser>div:nth-child(-n+2){
+	text-align: center;
+}
+#xUser>div:nth-child(1){
+	margin-top:60px;
+	margin-bottom:18px;
+}
+#xUser>div:nth-child(1)>img{
+	width:20%;
+}
+#xUser>div:nth-child(2){
+	margin-bottom:25px;
+}
+#xUser button{
+	width: 22%;
+	height:22px;
+	border-radius: 5px;
+	background:rgb(53,38,65);
+	border:1px solid #b5b3b7;
+	font-size:1.4em;
+	color: white;
+}
+#xUser>div:nth-child(3){
+	width: 100%;
+	height:50px;
+	background: #4b4e5c;
+	margin-bottom: 2px;
+	line-height:50px;
+	font-size:1.8em;
+	color: white;
+}
+.xLeft{
+	margin-left: 7.6%;
+}
+.xArrow{
+  position:absolute;
+  right:6%;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  width:3%;
+}
+#xUser li{
+	width: 100%;
+	height: 50px;
+	background: #4b4e5c;
+	line-height:50px;
+	font-size:1.2em;
+	color: white;
+	position: relative;
+}
+#xUser li img:nth-child(1){
+	width:12%;
+}
+#xUser li img{
+  vertical-align:middle;
+}
+#xAddGame{
+	position: relative;
+	top:10px;
+}
+#xAddGame div{
+	width:24px;
+	height: 24px;
+	border-radius:12px;
+	background: #bebebe;
+	text-align: center;
+	line-height:12px;
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	left: 10%;
+}
+#xAddGame div img{
+	width: 90%;
+}
+#xAddGame span{
+	font-size:1.6em;
+	color: #dddddd;
+	margin-left:22% ;
+}
+.content{
+	margin-bottom: 16%;
+	margin-top: 18%;
+}

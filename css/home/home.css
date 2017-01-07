@@ -1,0 +1,264 @@
+
+.content{
+	margin-top: 15%;
+	margin-bottom: 13%;
+	width: 100%;
+	background-color: rgb(219,219,219); /*灰色*/
+	overflow: hidden;
+}
+/*礼包*/
+.rGift{
+	width: 100%;
+	background: white;
+	margin-top: 2.5%;
+	margin-bottom: 3%;
+	height: 15.6%;
+	padding: 2%;
+	box-sizing: border-box;
+}
+/*礼包标题*/
+.rGift-title{
+	margin: 4% 1%;
+	background: url(../../img/home/luwu2.png) no-repeat;
+	background-size: 100% 100%;
+	font-family: "STHeiti";
+	height: 10%;
+	width: 40%;
+	overflow: hidden;
+	position: relative;
+	
+}
+.rGift-title img:nth-child(1){
+	width: 15%;
+	position: relative;
+	left: 1.5%;
+	margin-top: 1.5%;
+}
+.rGift-title img:nth-child(2){
+	width: 10%;
+	position: absolute;
+	left: 4%;
+	top: 16.5%;
+}
+.rGift-title span:nth-child(3){
+	display: block;
+  	color: white;
+  	font-size: 1.5em;
+  	position: absolute;
+  	top: 24%;
+  	left: 25%;	
+}
+/*推荐游戏*/
+.rRec{
+	overflow: hidden;	
+}
+.rRec em{
+	color: #f46259;
+}
+.rRec-game{
+	float: left;
+	margin: 0% 6% 5% 1%;
+	width: 18%;
+	text-align: center;
+}
+.rRec-game strong{
+	font-size: 1em;
+	color: #333333;
+	margin-bottom: 3%;
+	display: inline-block;
+}
+.rRec-game img{
+	width: 100%;
+}
+.rRec-game span{
+	color: rgb(177,177,177);
+}
+/*专属*/
+.rExc{
+	overflow: hidden;
+	margin: 0 2% 5% 1%;
+	position: relative;
+}
+.rExc-img,.rExc-content,.rExc-title{
+	float: left;
+}
+.rExc-img{
+	width: 16%;
+	margin-right: 1%;
+}
+.rExc-title{
+	display: inline-block;
+	margin-top: 2%;
+	margin-right: 40%;
+	margin-bottom: 3%;
+	font-size: 1em;
+	color: #333333;
+}
+.rExc-content{
+	display: inline-block;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	color: rgb(177,177,177);
+	overflow: hidden;
+text-overflow:ellipsis;
+white-space: nowrap;
+}
+.rExc-date{
+	position: absolute;
+    right: 10%;
+    top: 30%;
+    color: rgb(177,177,177);
+}
+.rGrayLine{
+	border-bottom: 1px solid rgb(177,177,177);
+	width: 95%;
+	margin: 0 auto 5% auto;
+}
+/*关注*/
+.rGift-focus{
+	text-align: right;
+	padding-right: 5%;
+	color: red;
+	margin-bottom: 2%;
+}
+/*游戏详情*/
+.rGame{
+	display: inline-block;
+	width: 100%;
+	background: white;
+	height: 15.6%;
+	padding: 2%;
+	margin-bottom: 3%;
+	box-sizing: border-box;
+}
+/*标题*/
+.rGame-title{
+	position: relative;
+	margin-left: 5%;
+	height: 45px;
+}
+.rGame-title img{
+	border-radius: 50%;
+	width: 16%;
+	position: absolute;
+	border: 2px solid white;
+	z-index: 1;
+}
+.rGame-title strong{
+	position: absolute;
+	font-size: 1.5em;
+	left: 20%;
+	top: 50%;
+}
+/*大图*/
+.rGame-bigImg{
+	position: relative;
+	height: 20%;
+	margin-bottom: 4%;
+}
+.rGame-bigImg img{
+	width: 100%;
+}
+.bigImg-info{
+	display: inline-block;
+	position: absolute;
+	background: rgba(0,0,0,0.7);
+	bottom: 0;
+	width: 95%;
+	color: white;
+	height: 15%;
+	font-size: 1.5em;
+	line-height: 2.5;
+	padding-left: 5%;
+}
+/*游戏详情*/
+.rGame-info{
+	position: absolute;
+	top: 40%;
+	left: 20%;
+	font-size: 1.5em;
+}
+/*查看更多*/
+.rGame-more{
+	text-align: center;
+	
+}
+.rGame-more a{
+	display: inline-block;
+	background: rgb(254,119,111);
+	color: white;
+	text-decoration: none;
+	width: 98%;
+	height: 2.5em;
+	font-size: 1.5em;
+	line-height: 2.5;
+}
+/*自定义margin-bottom*/
+.edit{
+	margin-bottom: 2%;
+}
+/*视频秀*/
+.rVideo{
+	width: 100%;
+	padding: 2%;
+	box-sizing: border-box;
+	background: white;
+}
+.rVideo-title{
+	overflow: hidden;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+.rVideo-title img{
+	width: 5%;
+	float: left;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+.rVideo-show{
+	margin: 2% 0;
+	overflow: hidden;
+}
+.rVideo-title h4{
+	float: left;
+	vertical-align: middle;
+}
+.rVideo-show div{
+	position: relative;
+	width: 48%;
+	float: left;
+}
+.edit1{
+	margin-right: 4%;
+}
+.showDiv-img1{
+	width: 100%;
+}
+.showDiv-img2{
+	width: 10%;
+	top: 0%;
+	left: 0%;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	position: absolute;
+}
+.rVideo-show strong{
+	position: absolute;
+	bottom: 15%;
+	display: inline-block;
+	background: rgba(0,0,0,0.6);
+	width: 94%;
+	padding: 3%;
+	font-size: 1.5em;
+	color: white;
+	
+}
+.rVideo-show i{
+	display: block;
+	font-style: normal;
+	color: #555555;
+	font-size: 1.2em;
+	margin-top: 2%;
+}
+
