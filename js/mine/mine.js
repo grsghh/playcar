@@ -19,3 +19,7 @@ $(document).on("touchstart",".myOrders",function(){
 $(document).on("touchstart",".myCollections",function(){
 	window.location.href = "collect.html";
 })
+//登录跳转
+$(document).on("touchstart",".userLogin",function(){
+	window.location.href = "register.html";
+})
