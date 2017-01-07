@@ -1,0 +1,58 @@
+
+header img{
+	width:56%;
+}
+#xContent{
+	margin-top: 55px;
+	background:url(../../img/mine/register/beijing.png) no-repeat;
+	background-size:100% 100%;
+	overflow: hidden;
+	text-align: center;
+	height: 100%;
+	position: fixed;
+	width: 100%;
+}
+#xContent div{
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 30px;	
+}
+#xContent img{
+	width:35%;
+}
+#xContent input{
+	width: 85%;
+	height: 55px;
+	border: none;
+	background:#eb9795;
+	border:1px solid #f7d6d5;
+	border-radius:3px;
+	font-size:2.5em;
+}
+#xContent input:nth-of-type(2){
+	margin-top:20px;
+	margin-bottom: 40px;
+}
+#xContent button{
+	width: 85%;
+	height: 55px;
+	border:none;
+	background: white;
+	color: #d92a2a;
+	border-radius:3px;
+	font-size:2.6em;
+}
+#xContent a{
+	color: white;
+	font-size: 2.5em;
+	border-bottom:1px solid white;
+	padding-bottom:3px;
+	display: inline-block;
+	float: right;
+	margin-right: 7.5%;
+	margin-top: 13px;
+}
+::-webkit-input-placeholder{
+	color:white;
+	text-indent:15px;
+}

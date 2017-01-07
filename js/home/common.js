@@ -1,14 +1,11 @@
 
-var xSwitches = document.getElementById("xSwitches");
-var xUser = document.getElementById("xUser");
-var xBox = document.getElementById("xBox");
 var bol = true;
-xSwitches.onclick = function() {
-	if(bol) {
-		xBox.style.left = "80%";
+$(document).on("touchstart","#xSwitches",function(){
+	if(bol){
+		$("#xBox").css("left","80%");
 		bol = false;
-	} else {
-		xBox.style.left = "0";
+	}else{
+		$("#xBox").css("left","0");
 		bol = true;
 	}
-}
+})
