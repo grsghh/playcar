@@ -1,0 +1,112 @@
+header img{
+	width:56%;
+}
+header{
+	background: #f9f9f9 !important;
+}
+body{
+	background:#fbfbfb ;
+}
+#xContent{
+	width: 100%;
+	margin-top:55px;
+}
+#xContent>div{
+	display: flex;
+	justify-content: space-around;
+	padding-top:15px;
+	background: white;
+}
+#xContent a:nth-of-type(1){
+	font-size:2.8em;
+	border-bottom: 2px solid #d92727;
+	padding:0 10px;
+	color:#d92727;
+}
+#xContent a:nth-of-type(2){
+	font-size: 2.8em;
+}
+#xContent li{
+	overflow: hidden;
+	height:7.8rem;
+	position: relative;
+}
+.xLiCon_top{
+	width:92%;
+	border-left:3px solid #dddcda;
+	float: right;
+	position: absolute;
+	right: 0;
+	background:#f9f9f9 ;
+	z-index: 10;
+	height: 7.8rem;
+}
+.xLiCon_top hr:nth-of-type(1){
+	width:6%;
+	border: none;
+	border: 1px solid #dddcda;
+	position: absolute;
+	left:-9%;
+	bottom:0;
+}
+.xLiCon_top hr:nth-of-type(2){
+	width:98%;
+	border: none;
+	border: 1px solid #dddcda;
+	position: absolute;
+	right: 0;
+	bottom:0;
+}
+.xLiCon_top span{
+	font-size: 2.4em;
+	display: inline-block;
+	padding-top:22px;
+	padding-bottom: 22px;
+	padding-left:22px;
+}
+.xLiCon_top em{
+	font-size: 1.6em;
+	color: #8d8d8d;
+	display: inline-block;
+	margin-left:68%;
+}
+.xLiCon_top img{
+	width: 8%;
+	position: absolute;
+	left: -4.5%;
+	top: 40px;
+	z-index: 5;
+}
+.xLiCon_top div{
+	width:36px;
+	height:36px;
+	border:1px solid #f6f4f5;
+	border-radius:18px;
+	position: absolute;
+	left: -5.6%;
+	top:36.2px;
+	background: white;
+}
+
+#xContent li div:nth-of-type(2){
+	width:25%;
+	height:100%;
+	background:#7f597f;
+	color: white;
+	text-align: center;
+	font-size:2.4em;
+	line-height:5.5;
+	position: absolute;
+	right: 0;
+}
+#xContent ul{
+	position: relative;
+}
+#xContent ul>hr{
+	width:100%;
+	border: none;
+	border: 1px solid #dddcda;
+	position: absolute;
+	bottom: 0;
+	z-index: 20;
+}
