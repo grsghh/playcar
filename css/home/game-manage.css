@@ -1,0 +1,59 @@
+header{
+	background:#f9f9f9 !important;
+}
+#xContent{
+	width: 100%;
+	margin-top:55px;
+}
+#xContent li{
+	width: 100%;
+	background:white;
+	border-bottom: 1px solid #dddddd;
+	padding:4%;
+}
+.xliCon{
+	position: relative;
+}
+.xliCon>img{
+	width:18%;
+	vertical-align:top;
+}
+.xliCon button{	
+	height:35px;
+	border-radius: 6px;
+	border: 1px solid #f56243;
+	font-size:1.8em;
+	position: absolute;
+	top:38px;
+	right:45px;
+}
+.xliCon button:nth-of-type(1){
+	width: 20%;
+	background:#f56243;
+	color: white;
+}
+.xliCon button:nth-of-type(2){
+	width: 22%;
+	background:white;
+	color: #f56243;
+	display: none;
+}
+.xStart{
+	display: inline-block;
+	font-size:1.5em;
+	margin-left: 5px;
+	margin-top: 10px;
+}
+.xStart span:nth-child(1){
+	display: inline-block;
+	margin-top:-3px;
+	margin-bottom: 10px;
+	font-size: 1.5em;
+}
+.xStart img{
+	width: 8%;
+}
+.xStartImg{
+	position: relative;
+	top:2px;
+}

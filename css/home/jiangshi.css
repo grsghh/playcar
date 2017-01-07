@@ -1,0 +1,155 @@
+@charset "utf-8";
+body,header,footer,div,p,ul,li,span,em,a{
+	padding: 0;
+	margin: 0;
+}
+html{
+	width:100%;
+}
+body{
+	font:62.5% tahoma,arail;
+	width:100%;
+}
+ul{
+	list-style: none;
+}
+a{
+	color: #000;
+	text-decoration: none;
+}
+button:focus{
+	outline: none;
+}
+em{
+	font-style: normal;
+}
+#xBox{
+	width: 100%;
+	height:100%;
+}
+/*头部*/
+header{
+	width: 100%;
+	height:55px;
+	background:#f9f9f9;
+	position: fixed;
+	text-align: center;
+	line-height: 55px;
+	top: 0;
+	z-index: 9999;
+}
+header a {
+	position:absolute;
+	left:7.6%;
+	top: 6px;
+}
+header span{
+	font-size:1.8em;
+	color:#d92929;
+}
+header img{
+	width: 80%;
+}
+/*内容*/
+#xCotent{
+	width: 100%;
+	margin-top:55px;
+}
+#xTopCon{
+	width: 100%;
+	height: 70px;
+	overflow: hidden;
+}
+#xTopCon p{
+	font-size:1.8em;
+	text-align: center;
+	margin-top:12px;
+}
+#xTopCon span{
+	margin-left:20px;
+	margin-top:12px;
+	display: inline-block;
+}
+#xTopCon em{
+	margin-left:48%;
+	margin-top: 12px;
+	display: inline-block;
+}
+#xBottomCon img,#xBottomCon p{
+	width: 95%;
+	margin-left:2.5%;
+}
+#xBottomCon p{
+	font-size: 1.5em;
+	color: #555555;
+}
+/*尾部*/
+footer{
+	margin-top: 12px;
+	position: relative;
+}
+#xFooterTop img{
+	width: 28%;
+	vertical-align: top;
+	margin-left:8%;
+	margin-right:8px;
+}
+#xFooterTop div{
+	width: 60%;
+	display: inline-block;
+}
+#xFooterTop{
+	font-size: 1.5em;
+	margin-bottom:20px ;
+	color: #555555;
+}
+#xFooterTop span{
+	display: inline-block;
+	margin-top:15px;
+	line-height:2;
+}
+#xFooterTop em{
+	display: inline-block;
+	margin-top: 5px;
+}
+#xFooterBottom_one{
+	width: 95%;
+	height:45px;
+	background:#f4645c;
+	margin-bottom:10px;
+	margin-left:2.5%;
+	border-radius:3px;
+	color: white;
+	font-size:1.8em;
+	text-align: center;
+	line-height:45px;
+}
+#xFooterBottom_one img{
+	width: 4%;
+}
+#xFooterBottom_one img,#xFooterBottom_one span{
+	display: inline-block;
+	margin:0 5px;
+}
+#xFooterBottom_two{
+	width: 65%;
+	height:45px;
+	background:white;
+	border-radius:3px;
+	color: #f4645c;
+	font-size:1.8em;
+	text-align: center;
+	line-height:45px;
+	border: 1px solid #f4645c;
+	position: absolute;
+	bottom:0;
+	left: 17.5%;
+	display: none;
+}
+#xFooterBottom_two img{
+	width:6%;
+}
+#xFooterBottom_two img,#xFooterBottom_two span{
+	display: inline-block;
+	margin:0 5px;
+}
