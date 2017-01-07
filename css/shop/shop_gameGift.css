@@ -1,0 +1,146 @@
+#xBox{
+	background:#e2e2e2;
+}
+#xContent{
+    width: 100%;
+	margin-top:63px;
+	/*margin-bottom: 55px;*/
+}
+/*内容上*/
+#xHeadImg img{
+	width:100%;
+}
+#xHeadImg {
+	position: relative;
+}
+#xHeadImg div{
+	width: 96%;
+	background: black;
+	opacity: 0.6;
+	padding:2%;
+	position: absolute;
+	bottom:0;
+}
+#xHeadImg span{
+	font-size: 2.5em;
+	color: white;
+	display: inline-block;
+	padding-bottom: 5px;
+}
+#xHeadImg em{
+	font-size: 2em;
+	color: white;
+}
+#xHeadImg i{
+	color:#ffb400;
+}
+#xHeadImg em:nth-of-type(2){
+	margin-left:42%;
+}
+/*内容下*/
+#xCont_bottom{
+	width: 93%;
+	background: white;
+	padding:3.5%;
+	margin-top:8px;
+	margin-bottom: 8px;
+}
+#xCont_bottom h3{
+	font-size:2.3em;
+	color: #888888;
+	margin-bottom:15px;
+}
+#xCont_bottom input{
+	background: #eeeeee;
+	border: none;
+	height:35px;
+	width:75%;
+	font-size: 2.8em;
+}
+#xCont_bottom button{
+	width:20%;
+	height:35px;
+	background: #fe776f;
+	color: white;
+	border-radius: 3px;
+	border: none;
+	font-size:2.6em;
+	vertical-align: top;
+	margin-left:3.5%;
+}
+#xCont_bottom div{
+	margin-top:20px;
+	margin-bottom:20px;
+	font-size:2.2em;
+}
+#xCont_bottom a{
+	color: red;
+	padding-bottom: 3px;
+	border-bottom: 1px solid red;
+}
+#xCont_bottom hr{
+	border: none;
+	height: 1px;
+	background: #dddddd;
+}
+#xCont_bottom h2{
+	font-size: 2.8em;
+	margin-bottom:15px;
+	margin-top: 15px;
+}
+#xCont_bottom span{
+	font-size:2.4em;
+	color: #888888;
+}
+/*尾部*/
+#footer{
+	background: white;
+	margin: 8px 0;
+	padding:35px 9px;
+	position: relative;
+}
+#footer img{
+	width:18%;
+	vertical-align: middle;
+	margin-left:6%;
+}
+#footer div{
+	display: inline-block;
+}
+.btn_two{
+	width: 20%;
+	height:36px;
+	background:white;
+	color:#fe776f;
+	border: none;
+	border-radius:3px;
+	font-size:2.2em;
+	margin-left:52%;
+	border: 1px solid #fe776f;
+}
+.btn_one{
+	width: 20%;
+	height:36px;
+	background:#fe776f;
+	color: white;
+	border: none;
+	border-radius:3px;
+	font-size:2.2em;
+	margin-left:52%;
+}
+#footer span{
+	font-size: 2.2em;
+	font-weight: 900;
+	position: absolute;
+	top:45px;
+	left:29%;
+}
+#footer a{
+	color: red;
+	position: absolute;
+	top:80px;
+	left:29%;
+}
+
+
+

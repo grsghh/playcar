@@ -1,0 +1,80 @@
+#xBox{
+	background: #e2e2e2;
+	width: 100%;
+	height: 800px;
+}
+#xContent{
+	width: 100%;
+	margin-top:63px;
+	margin-bottom: 55px;
+}
+/*圆头像*/
+#xCircle_img{
+	background: white;
+	margin: 8px 0;
+	padding:9px;
+	position: relative;
+}
+#xCircle_img img{
+	width:18%;
+	vertical-align: middle;
+	margin-left:6%;
+}
+#xCircle_img div{
+	display: inline-block;
+}
+#xCircle_img button{
+	width: 20%;
+	height:36px;
+	background:#fe776f;
+	color: white;
+	border: none;
+	border-radius:3px;
+	font-size:2.2em;
+	margin-left:52%;
+}
+#xCircle_img span{
+	font-size: 2.2em;
+	font-weight: 900;
+	position: absolute;
+	top:20px;
+	left:29%;
+}
+#xCircle_img a{
+	color: red;
+	position: absolute;
+	top:52px;
+	left:29%;
+}
+
+/*热门礼包*/
+#xHot_gift{
+	
+	background: white;
+	overflow: hidden;
+	padding-top: 9px;
+}
+#xHot_gift li img{
+	width: 85%;
+}
+#xHot_gift li{
+	width: 45%;
+	font-size: 1.2em;
+	line-height: 2;
+}
+#xHot_gift li{
+	float: left;
+	margin-bottom:9px;
+}
+#xHot_gift li:nth-of-type(2n+1){
+	margin-left:8.5%;
+}
+#xHot_gift button{
+	width: 85%;
+	background:#fe776f;
+	color: white;
+	height: 35px;
+	border: none;
+	border-radius:5px;
+	font-size:1.4em;
+}
