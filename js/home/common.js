@@ -9,29 +9,18 @@ $(document).on("touchstart","#xSwitches",function(){
 		bol = true;
 	}
 })
-$(document).("touchstart","#xSpit-language",function(){
+$(document).on("touchstart","#xSpit-language",function(){
 	  window.location.href = "tucao.html"
 })
-//touch.on("#xBox","swipeLeft swipeRight",function(even){
-//	switch(even.type){
-//		case  "swipeLeft":
-//			$(this).css("left","80%")
-//			 alert(1)
-//			break;
-//		case "swipeRight":
-//			$(this).css("left","0")
-//			break;		
-//	}
-//})
-$("#xWrap").bind("swipeLeft swipeRight",function(even){
+$("#xBox").bind("swipeleft swiperight",function(even){
+	even.preventDefault()
 	switch(even.type){
-		case  "swipeLeft":{
-			$(this).css("left","80%")
-			 alert(1)
+		case  "swipeleft":{
+			$(this).css("left","0")
 			break;
 		}
-		case "swipeRight":{
-			$(this).css("left","0")
+		case "swiperight":{
+			$(this).css("left","80%")
 			break;	
 		}
 	}
