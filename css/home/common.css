@@ -43,6 +43,8 @@ body{
 	font:62.5% tahoma,arail;
 	width:100%;
 	height: 100%;
+	overflow: hidden;
+	overflow-y:scroll;
 }
 input,form{
 	background: none;
@@ -130,7 +132,7 @@ footer img{
 /*user框*/
 #xUser{
 	width:80%;
-	height: 100%;
+	height:100%;
 	background: #463451;
 	position: fixed;
 	left: 0;
@@ -227,7 +229,7 @@ footer img{
 	background: rgb(59,36,66);
 	border-radius:20px;
 	position: absolute;
-    bottom: 5%;
+    bottom:5%;
     left:30.5%;
 }
 

@@ -4,7 +4,7 @@ setTimeout(function() {
 		loop: true,
 		pagination: ".swiper-pagination",
 		autoplay: 2000,
-		effect: "fade",
+		effect: "overflow",
 		//	onSlideChangeEnd:function(ha){
 		//				console.log(ha.activeIndex);
 		//			}
