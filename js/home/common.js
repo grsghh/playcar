@@ -10,7 +10,7 @@ $(document).on("touchstart","#xSwitches",function(){
 	}
 })
 $(document).on("touchstart","#xSpit-language",function(){
-	  window.location.href = "tucao.html"
+	  window.location.href = "../home/tucao.html"
 })
 $("#xBox").bind("swipeleft swiperight",function(even){
 	even.preventDefault()
