@@ -130,7 +130,7 @@ footer img{
 /*user框*/
 #xUser{
 	width:80%;
-	height: 1800px;
+	height: 100%;
 	background: #463451;
 	position: fixed;
 	left: 0;
@@ -227,7 +227,7 @@ footer img{
 	background: rgb(59,36,66);
 	border-radius:20px;
 	position: absolute;
-    top:56rem;
+    bottom: 5%;
     left:30.5%;
 }
 
