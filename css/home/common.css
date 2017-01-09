@@ -135,7 +135,7 @@ footer img{
 	position: fixed;
 	left: 0;
 	top: 0;
-	z-index:10000;
+	/*z-index:10000;*/
 }
 #xUser>div:nth-child(-n+2){
 	text-align: center;

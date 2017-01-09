@@ -1,4 +1,3 @@
-
 //touch.on($(".xLiCon_top"),"swipeleft swiperight",function(even){
 //	even.stopPropagation();
 //	 even.preventDefault();
@@ -61,8 +60,9 @@ $(document).on("touchstart",".xEdit",function(){
 	      change = 0;
 	} 	
 });
-var bol = true;
-$(document).on("touchstart",".xLiCon_top img",function(){
+$(".xLiCon_top img").each(function(i,e){
+	var bol = true;
+$(this).on("touchstart",function(){
    if(change == 1){
 	if (bol) {
 		$(this).attr({
@@ -77,6 +77,8 @@ $(document).on("touchstart",".xLiCon_top img",function(){
 	}
 	}
 })
+})
+
 
 $(document).on("touchstart",".xChecked",function(){
 	$(".xChecked").attr({
