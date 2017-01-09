@@ -201,8 +201,8 @@ footer img{
 	top:10px;
 }
 #xAddGame div{
-	width:24px;
-	height: 24px;
+	width:17px;
+	height: 17px;
 	border-radius:12px;
 	background: #bebebe;
 	text-align: center;
@@ -218,7 +218,7 @@ footer img{
 #xAddGame span{
 	font-size:1.6em;
 	color: #dddddd;
-	margin-left:22% ;
+	margin-left:17% ;
 }
 #xSpit-language{
 	width: 40%;

@@ -11,7 +11,13 @@ $(document).on("touchstart","#xSwitches",function(){
 })
 $(document).on("touchstart","#xSpit-language",function(){
 	  window.location.href = "../home/tucao.html"
-})
+});
+$(document).on("touchstart","#xUser div button",function(){
+	  window.location.href = "../mine/register.html";
+});
+$(document).on("touchstart","#xAddGame",function(){
+	  window.location.href = "../home/game-manage.html";
+});
 $("#xBox").bind("swipeleft swiperight",function(even){
 	even.preventDefault()
 	switch(even.type){
