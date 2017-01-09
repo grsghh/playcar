@@ -1,4 +1,4 @@
-header img{
+/*header img{
 	width:56%;
 }
 header{
@@ -25,8 +25,8 @@ body{
 }
 #xContent a:nth-of-type(2){
 	font-size: 2.8em;
-}
-#xContent li{
+}*/
+/*#xContent li{
 	overflow: hidden;
 	height:7.8rem;
 	position: relative;
@@ -56,8 +56,8 @@ body{
 	position: absolute;
 	right: 0;
 	bottom:0;
-}
-.xLiCon_top span{
+}*/
+/*.xLiCon_top span{
 	font-size: 2.4em;
 	display: inline-block;
 	padding-top:22px;
@@ -98,7 +98,7 @@ body{
 	line-height:5.5;
 	position: absolute;
 	right: 0;
-}
+}*/
 #xContent ul{
 	position: relative;
 }

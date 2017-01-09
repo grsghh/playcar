@@ -1,3 +1,4 @@
+//编辑画面交互
 var bol = true;
 $(document).on("touchstart",".xLiCon_top img",function(){
 	if (bol) {
@@ -12,7 +13,6 @@ $(document).on("touchstart",".xLiCon_top img",function(){
 	    bol = true;
 	}
 })
-
 $(document).on("touchstart","input[type=checkbox]",function(){
 	$("#xFooter img").css({
 		display:"block"
@@ -22,16 +22,17 @@ $(document).on("touchstart","input[type=checkbox]",function(){
     });
 })
 
-$(document).on("touchstart","#xFooter button:eq(0)",function(){
+$(document).on("touchstart",".xBtn1",function(){
 	$(".xLiCon_top img").attr({
 		src:"../img/mine/edit-collect/gray.png"
 	      });
 	$("#xFooter img").css({
 		display:"none"
-	});
+	}); 
 })
-$(document).on("touchstart","#xFooter button:eq(1)",function(){
-	 $("ul").css({
-	 	display:"none"
-	 })
+$(document).on("touchstart",".xBtn2",function(){
+	   $("img[src$='../img/mine/edit-collect/red.png']").parent().parent().remove()
+	   $("#xFooter img").css({
+		display:"none"
+	   });
 })
