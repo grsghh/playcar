@@ -1,6 +1,8 @@
 $(function() {
 	if(localStorage.phone) {
 		changeName();
+	}else{
+		
 	}
 	var bol = true;
 	$(document).on("touchstart", "#xSwitches", function() {
@@ -38,10 +40,21 @@ $(function() {
 		})
 		//封装登录成功后换名字
 	function changeName() {
-		$(".xNone").css("display", "none");
+		$(".xNone").hide();
 		$(".xAccount").css({
 			display: "block"
 		})
 		$(".xAccount").text(localStorage.phone);	
 	}
+	
+	 //没有登录
+   function backName(){
+   	    $(".xNone").show();
+		$(".xAccount").css({
+			display: "none"
+		})
+		$(".xAccount").text("哈哈");	
+   }
 })
+
+  
