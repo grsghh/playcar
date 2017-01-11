@@ -23,3 +23,8 @@ $(document).on("touchstart",".myCollections",function(){
 $(document).on("touchstart",".userLogin",function(){
 	window.location.href = "register.html";
 })
+
+//判断登录后改变登录后的状态
+if(localStorage.phone){
+	$(".userLogin").text(localStorage.phone)
+}

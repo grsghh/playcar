@@ -232,4 +232,13 @@ footer img{
     bottom:5%;
     left:30.5%;
 }
-
+.xAccount{
+	border: 1px solid #b5b3b7;
+	padding:3% 0;
+	border-radius:5px;
+	background: rgb(53,38,65);
+	color: white;
+	display: none;
+	width: 26%;
+	margin-left:37%;
+}
