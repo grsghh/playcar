@@ -26,5 +26,13 @@ $(document).on("touchstart",".userLogin",function(){
 
 //判断登录后改变登录后的状态
 if(localStorage.phone){
-	$(".userLogin").text(localStorage.phone)
+	$("#userName").text(localStorage.phone)
+	$(".userLogin").hide();
+	$("#loginOut").show();
 }
+$("#loginOut").on("touchstart",function(){
+	localStorage.clear();
+	$(".userLogin").show();
+	$("#loginOut").hide();
+	$("#userName").text("游客");
+})
